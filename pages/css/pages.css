@@ -15,4 +15,47 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+
+.maincolor{
+    width: 100px;
+    height: 100px;
+    Background-color: #6db8d8;$
+    box-sizing: border-box;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    Background-color: #76C4B3;$
+}
+
+.pink{
+    width: 100px;
+    height: 100px;
+    Background-color: #D6A2AD;$
+}
+
+.green2{
+    width: 100px;
+    height: 100px;
+    Background-color: #62CEB8;$
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    Background-color: #ACE9FD;$
+}
+
+.row {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
