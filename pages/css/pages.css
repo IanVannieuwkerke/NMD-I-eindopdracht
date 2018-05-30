@@ -14,48 +14,264 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
-
-
-.maincolor{
-    width: 100px;
-    height: 100px;
-    Background-color: #6db8d8;$
-    box-sizing: border-box;
+.titels {
+    font-size: 30px;
+    border: 3px solid black;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    width: 200px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
 }
 
-.green{
-    width: 100px;
-    height: 100px;
-    Background-color: #76C4B3;$
-}
-
-.pink{
-    width: 100px;
-    height: 100px;
-    Background-color: #D6A2AD;$
-}
-
-.green2{
-    width: 100px;
-    height: 100px;
-    Background-color: #62CEB8;$
-}
-
-.blue{
-    width: 100px;
-    height: 100px;
-    Background-color: #ACE9FD;$
-}
-
-.row {
-    box-sizing: border-box;
-}
-
-.row {
+.kleuren {
+    padding: 100px;
+    margin: 100px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
-.column {
-    flex: 33.33%;
-    padding: 5px;
+.blauw {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color:#6DB8D8;
+    color: white;
+    text-align: center;
 }
+
+.groen {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color:#76C4B3;
+    color: white;
+    text-align: center;
+}
+
+.roze {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #E79FA9;
+    color: white;
+    text-align: center;
+}
+
+.groen2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #62CEB8;
+    color: white;
+    text-align: center;
+}
+
+.roze2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #FEDAD1;
+    color: white;
+    text-align: center;
+}
+
+.blauw2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #CBE1E9;
+    color: white;
+    text-align: center;
+}
+
+.blauw3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #A9B0C4;
+    color: white;
+    text-align: center;
+}
+
+.kaki {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #8F8B4C;
+    color: white;
+    text-align: center;
+}
+
+.blauw4 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #CBD2ED;
+    color: white;
+    text-align: center;
+}
+
+.lettertype {
+    padding: 100px;
+    
+}
+
+.hindregular {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+    line-height: 1.6;
+    text-align: center;
+    float: right;
+    display: inline-block;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+.hindbold {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+    line-height: 1.6;
+    text-align: center;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.buttons{
+    padding: 100px;
+}
+.navigationbar{
+    margin: 10px;
+    padding: 10px;
+    background-color:white;
+    border: 2px solid black;
+    height: 60px;
+    width: 1000px;
+    text-align: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Home {
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 40px;
+    cursor: pointer;
+}
+
+.Tickets {
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 40px;
+    cursor: pointer;
+}
+.LineUp {
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 40px;
+    cursor: pointer;
+}
+.Info {
+    background-color: white;
+    border: 2px solid;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 40px;
+    cursor: pointer;
+}
+.socialmedia{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+}
+.facebook{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    margin: 4px 40px;
+}
+.facebooklogo{
+    max-width: 100%;
+  max-height: 100%;
+}
+
+.twitter{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    margin: 4px 40px;
+}
+.twitterlogo{
+    max-width: 100%;
+  max-height: 100%;
+}
+
+.youtube{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    margin: 4px 40px;
+}
+.youtubelogo{
+    max-width: 100%;
+  max-height: 100%;
+}
+
+.instagram{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    margin: 4px 40px;
+}
+.instagramlogo{
+    max-width: 100%;
+  max-height: 100%;
+}
+
